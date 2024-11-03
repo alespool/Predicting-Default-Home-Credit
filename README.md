@@ -66,15 +66,15 @@ Before fitting an ensemble of machine learning models, we prepare the dataset by
 
 - We used LightGBM to predict the default outcome, achieving a 78% ROC AUC score.
 
-![ROC_AUC](images\roc_auc.png)
+![ROC_AUC](./images/roc_auc.png)
 
 - The model was then given different thresholds to lessen the number of false negatives, resulting in 70% total defaulters catched.
 
-![Model_Probabilities](images\model_threshold.png)
+![Model_Probabilities](./images/model_threshold.png)
 
 - Another model built on top of the default predictions, which also uses LightGBM, was used to predict the credit score of a customer, with a 3.6 RMSE.
 
-![True_Values](images\regression_credit_score.png)
+![True_Values](./images/regression_credit_score.png)
 
 ## Model Deployment:
 
